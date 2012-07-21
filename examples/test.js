@@ -1,18 +1,9 @@
-node-tinyauth
--------------
-
-Really basic basic authentication middleware
-
-Example
-=======
-
-```javascript
 var http = require('http')
   , options = {
       realm: 'My secret server',
       accounts: ['foo:1234']
     }
-  , handler = require('tinyauth')(options)
+  , handler = require('../')(options)
   , port = 3000
   ;
 
@@ -25,4 +16,3 @@ http.createServer(function(req, res) {
 }).listen(port, function() {
   console.log('test server running on port ' + port);
 });
-```
