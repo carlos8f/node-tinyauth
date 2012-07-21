@@ -1,9 +1,8 @@
 var http = require('http')
-  , options = {
+  , handler = require('../')({
       realm: 'My secret server',
       accounts: ['foo:1234']
-    }
-  , handler = require('../')(options)
+    })
   , port = 3000
   ;
 

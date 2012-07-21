@@ -8,11 +8,10 @@ Example
 
 ```javascript
 var http = require('http')
-  , options = {
+  , handler = require('tinyauth')({
       realm: 'My secret server',
       accounts: ['foo:1234']
-    }
-  , handler = require('tinyauth')(options)
+    })
   , port = 3000
   ;
 
