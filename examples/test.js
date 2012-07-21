@@ -3,7 +3,7 @@ var http = require('http')
       realm: 'My secret server',
       accounts: ['foo:1234']
     })
-  , port = 3000
+  , port = 3001
   ;
 
 http.createServer(function(req, res) {
