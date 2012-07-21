@@ -25,3 +25,8 @@ http.createServer(function(req, res) {
   console.log('test server running on port ' + port);
 });
 ```
+
+License
+=======
+
+MIT
