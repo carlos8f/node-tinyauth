@@ -2,6 +2,9 @@
   "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
   "name": "tinyauth",
   "description": "Really basic basic authentication middleware",
+  "scripts": {
+    "test": "node test.js"
+  },
   "version": "0.1.1",
   "repository": {
     "type": "git",
@@ -10,8 +13,5 @@
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},
-  "engines": {
-    "node": "*"
-  },
   "license": "MIT"
 }
